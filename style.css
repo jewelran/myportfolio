@@ -1,0 +1,23 @@
+.full-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    height: 30rem;
+    border: 1px solid red;
+}
+img{
+    width: 33%;
+    padding: 1%;
+}
+.topHeader{
+width: 40%;
+}
+
+.myimg{
+    float: right;
+    margin-top: -13%;
+}
