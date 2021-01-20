@@ -1,5 +1,8 @@
+p{
+    font-size: 18px;
+}
 .full-container{
-    width: 100%;
+    width: 98%;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,6 +12,24 @@
     margin: 0 auto;
     height: 30rem;
 }
+.topContainerBg{
+    background-image: url("images/header-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.biographyBg{
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.latestWork{
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 1rem;
+}
+
 .hireBtn{
     padding: 10px 20px;
     margin-top: 1rem;
@@ -41,7 +62,8 @@ img{
 
 .myimg{
     float: right;
-    margin-top: -22%;
+    margin-top: -26%;
+    margin-right: 3rem;
 }
 .biography{
     width: 40%;
@@ -53,8 +75,8 @@ img{
     text-align: justify;
 }
 .biographyImg{
-    width: 30%;
-    margin-left: 10rem;
+    width: 26%;
+    margin-left: 12rem;
     margin-top: -22rem;
 }
 .worskTitle{
@@ -102,6 +124,14 @@ background: linear-gradient(90deg, rgba(252,0,153,1) 2%, rgba(255,0,104,1) 50%);
 }
 .footerContainer
 {
-    height: 40vh;
     color: white;
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.footerBottom{
+    color: #504c4c;
+    text-align: center;
+    padding: 2rem;
 }
