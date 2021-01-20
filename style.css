@@ -8,12 +8,12 @@
     width: 100%;
     margin: 0 auto;
     height: 30rem;
-    border: 1px solid red;
 }
 .hireBtn{
     padding: 10px 20px;
     margin-top: 1rem;
-    background-color: #e7184c;
+    background: rgb(252,0,153);
+background: linear-gradient(90deg, rgba(252,0,153,1) 2%, rgba(255,0,104,1) 50%);
     border-radius: 5px;
     border: none;
     color: white;
@@ -64,7 +64,8 @@ img{
 .cvBtn{
     padding: 10px 20px;
     margin-top: 3rem;
-    background-color: #e7184c;
+    background: rgb(252,0,153);
+background: linear-gradient(90deg, rgba(252,0,153,1) 2%, rgba(255,0,104,1) 50%);
     border-radius: 5px;
     border: none;
     color: white;
@@ -75,4 +76,32 @@ img{
     padding: 2%;
     margin: 0 auto;
     margin-left: 9px;
+}
+.comments{
+    text-align: center;
+    padding: 5rem;
+    color: rgb(90, 88, 88);
+}
+.comments h1{
+    padding: 2rem;
+}
+.client{
+    padding: 2rem;
+    padding-top: 0px;
+}
+.footer{
+    text-align: center;
+    width: 50%;
+    background: rgb(252,0,192);
+    background: rgb(252,0,153);
+    background: linear-gradient(90deg, rgba(252,0,153,1) 2%, rgba(255,0,104,1) 50%);
+    height: 15vh;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 2rem;
+}
+.footerContainer
+{
+    height: 40vh;
+    color: white;
 }
