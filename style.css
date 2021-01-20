@@ -2,22 +2,77 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     height: 30rem;
     border: 1px solid red;
+}
+.hireBtn{
+    padding: 10px 20px;
+    margin-top: 1rem;
+    background-color: #e7184c;
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+}
+.hireBtn:hover,.cvBtn:hover{
+    background-color: #f30943;
+    cursor: pointer;
 }
 img{
     width: 33%;
     padding: 1%;
 }
 .topHeader{
-width: 40%;
+    width: 40%;
+    padding: 0rem;
+    margin-left: 11rem;
+    margin-top: 0rem;
+    padding-top: 7rem
+}
+.topHeader h1{
+    color: #EC4B74;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .myimg{
     float: right;
-    margin-top: -13%;
+    margin-top: -22%;
+}
+.biography{
+    width: 40%;
+    padding: 2rem;
+    margin-left: 22rem;
+    margin-top: 0rem;
+    padding-top: 7rem;
+    float: right;
+    text-align: justify;
+}
+.biographyImg{
+    width: 30%;
+    margin-left: 10rem;
+    margin-top: -22rem;
+}
+.worskTitle{
+    text-align: center;
+    padding: 2rem;
+}
+.cvBtn{
+    padding: 10px 20px;
+    margin-top: 3rem;
+    background-color: #e7184c;
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+}
+.works>img{
+    width: 28%;
+    padding: 2%;
+    margin: 0 auto;
+    margin-left: 9px;
 }
