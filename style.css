@@ -1,6 +1,9 @@
 p{
     font-size: 18px;
 }
+body{
+    background-color: #F3F5F9;
+}
 .full-container{
     width: 98%;
     margin: 0;
